@@ -379,9 +379,10 @@ Hotels <- read_csv(file="data/aspatial/hotels.csv")
 Tourism <- read_csv(file="data/aspatial/tourism.csv")
 
 
-MRT = st_read(dsn="C:/Users/User/Desktop/A1/A2/TakeHomeExercise2/_posts/2021-09-14-take-home-exercise-2/data/aspatial/MRTLRTStnPtt.shp")
+MRT = st_read(dsn="data/aspatial/MRTLRTStnPtt.shp")
 
 ```
+
 ```{r}
 
 Hotels$Lat <- as.numeric(Hotels$Lat)
