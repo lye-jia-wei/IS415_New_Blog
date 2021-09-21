@@ -5,6 +5,12 @@ description: |
 output_dir: "_site"
 navbar:
   right:
+    - text: "In-class EX"
+      menu:
+      - text: "In-Class Ex 1"
+        href: 
+      - text: "In-Class Ex 2"
+        href: 
     - text: "Home"
       href: index.html
     - text: "About"
