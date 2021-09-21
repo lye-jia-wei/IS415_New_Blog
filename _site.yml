@@ -1,18 +1,45 @@
-name: "IS415_New_Blog"
-title: "IS415_New_Blog"
+name: "IS415_blog"
+title: "IS415 Blog"
 description: |
-  IS415_New_Blog
+  Journaling my IS415 experience!
 output_dir: "_site"
+theme: theme.css
 navbar:
+  search: false
   right:
-    - text: "In-class EX"
+    - text: "Hands-on Ex"
       menu:
-      - text: "In-Class Ex 1"
-        href: 
-      - text: "In-Class Ex 2"
-        href: 
-    - text: "Home"
-      href: index.html
+      - text: "Hands-on Ex 2"
+        href: hands-on-exercise-2.html
+      - text: "Hands-on Ex 3"
+        href: hands-on-exercise-3.html
+      - text: "Hands-on Ex 4"
+        href: hands-on-exercise-4.html
+      - text: "Hands-on Ex 5"
+        href: hands-on-exercise-5.html
+      - text: "Hands-on Ex 6"
+        href: hands-on-exercise-6.html
+        
+    - text: "In-class Ex"
+      menu:
+      - text: "In-class Ex 2"
+        href: in-class-exercise-2.html
+      - text: "In-class Ex 3"
+        href: in-class-exercise-3.html
+      - text: "In-class Ex 4"
+        href: in-class-exercise-4.html
+      - text: "In-class Ex 5"
+        href: in-class-exercise-5.html
+      - text: "In-class Ex 6"
+        href: in-class-exercise-6.html
+      
+    - text: "Take-home Ex"
+      menu:
+      - text: "Take-home Ex 1"
+        href: https://lye-jia-wei-is415.netlify.app/posts/2021-08-30-take-home-exercise-1/
+      - text: "Take home Ex 2"
+        href:  take-home-exercise-2.html
+
     - text: "About"
       href: about.html
 output: distill::distill_article
