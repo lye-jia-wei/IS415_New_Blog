@@ -38,7 +38,7 @@ navbar:
       - text: "Take-home Ex 1"
         href: https://lye-jia-wei-is415.netlify.app/posts/2021-08-30-take-home-exercise-1/
       - text: "Take home Ex 2"
-        href: https://jw-is415blog.netlify.app/take-home-exercise-2.html
+        href: take-home-exercise-2.html
 
     - text: "About"
       href: about.html
