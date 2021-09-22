@@ -758,6 +758,7 @@ tm_shape(sg) +
   tm_dots(col = 'room_type', size = 0.02, title="Room Type",palette = c("#FF5A5F", "#00A699","#FFFF00"),alpha=0.6) + tmap_options(check.and.fix = TRUE)+
   tm_basemap("OpenStreetMap")
 ```  
+
 At first glance, it is very clear that the Central Region has the most airbnb listings and that “entire home/apt” is the most frequent room rented out in the Central Region. However, if we take a look at the whole map, it is interesting to note that majority of the listings are of 'private room' category in other areas of Singapore.
 
 
